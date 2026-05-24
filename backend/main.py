@@ -15,6 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from backend.database import AsyncSessionLocal, init_db
 from backend.routers import answer_bank as answer_bank_router
 from backend.services.scheduler import start_scheduler, stop_scheduler
+from backend.utils.rate_limit import RateLimitMiddleware
 from backend.routers import applications as applications_router
 from backend.routers import automation as automation_router
 from backend.routers import pending as pending_router
@@ -46,6 +47,7 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+app.add_middleware(RateLimitMiddleware)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://localhost:3000"],
