@@ -14,6 +14,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from backend.database import AsyncSessionLocal, init_db
 from backend.routers import answer_bank as answer_bank_router
+from backend.services.scheduler import start_scheduler, stop_scheduler
 from backend.routers import applications as applications_router
 from backend.routers import automation as automation_router
 from backend.routers import pending as pending_router
@@ -32,7 +33,9 @@ async def lifespan(app: FastAPI):
         seeded = await seed_answer_bank(session)
         if seeded:
             logger.info("answer_bank_seeded_on_startup", extra={"count": seeded})
+    start_scheduler()
     yield
+    stop_scheduler()
     logger.info("relay_shutdown")
 
 
