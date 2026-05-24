@@ -3,6 +3,8 @@
 data/*.db
 data/resumes/
 data/screenshots/
+data/linkedin_auth.json
+data/config.yaml
 
 # Python
 __pycache__/
