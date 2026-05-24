@@ -2,7 +2,7 @@
 
 > Your always-on job application relay station. Discovers jobs, tailors your resume (zero fabrication), handles form submission, and tracks every application through its lifecycle.
 
-[![Phase](https://img.shields.io/badge/Phase-1%20of%208-blue)](plan/)
+[![Phase](https://img.shields.io/badge/Phase-1%20Complete%20%E2%9C%93-brightgreen)](plan/) [![Next](https://img.shields.io/badge/Next-Phase%202%20LLM%20Pipeline-blue)](plan/)
 [![Stack](https://img.shields.io/badge/Stack-Python%20%7C%20FastAPI%20%7C%20React-green)](backend/)
 [![Deploy](https://img.shields.io/badge/Deploy-Oracle%20Cloud%20ARM-orange)](deploy/)
 
