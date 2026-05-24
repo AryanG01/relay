@@ -1,0 +1,24 @@
+# Secrets and data
+.env
+data/*.db
+data/resumes/
+data/screenshots/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+
+# LaTeX/render artifacts
+*.aux
+*.log
+*.tex
