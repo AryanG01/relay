@@ -18,6 +18,13 @@ import asyncio
 import json
 import os
 import sys
+from pathlib import Path
+
+# Ensure the project root (parent of scripts/) is on sys.path so that
+# `import backend` works regardless of the working directory.
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
 
 
 async def run(reset: bool = False) -> None:
