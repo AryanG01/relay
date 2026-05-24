@@ -206,6 +206,7 @@ class PendingClarificationResponse(BaseModel):
     suggested_answer: Optional[str]
     confidence: Optional[float]
     status: str
+    resolved_answer: Optional[str] = None
 
     model_config = {"from_attributes": True}
 
