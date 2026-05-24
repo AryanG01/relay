@@ -1,0 +1,68 @@
+# Relay Configuration
+# Secrets (anthropic_api_key, secret_key) go in .env — never here.
+
+llm_model: "claude-sonnet-4-20250514"
+
+# Application limits
+daily_cap: 15
+per_platform_caps:
+  linkedin: 10
+  indeed: 8
+  greenhouse: 5
+  workday: 3
+
+# Dispatch window (24h local time, days of week)
+dispatch_window:
+  days: ["tuesday", "wednesday", "thursday"]
+  start_hour: 9
+  end_hour: 11
+
+# Match scoring thresholds
+min_match_score: 65
+human_approval_above: 80
+
+# Confidence threshold for autofill vs escalation
+autofill_confidence_threshold: 0.85
+
+# Anti-detection timing (seconds, gaussian distribution)
+action_delay_mean: 0.5
+action_delay_stddev: 0.2
+
+# Salary expectations
+salary_expectations:
+  SGD:
+    min: 70000
+    max: 95000
+  USD:
+    min: 80000
+    max: 120000
+
+# Hard exclusion filters
+excluded_companies: []
+excluded_industries: []
+require_sponsorship: false
+
+work_authorization:
+  SG: true
+  US: false
+  UK: false
+
+# Soft filters
+min_role_level: "junior"
+exclude_contract_only: false
+
+# Resume template
+resume_template: "templates/resume.html"
+
+# Scrapers
+scrapers:
+  linkedin:
+    enabled: true
+    search_keywords: ["software engineer", "backend developer", "machine learning engineer"]
+    location: "Singapore"
+    easy_apply_only: false
+  indeed:
+    enabled: true
+    search_keywords: ["software engineer", "backend engineer"]
+    location: "Singapore, SG"
+  company_sites: []

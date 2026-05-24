@@ -1,0 +1,182 @@
+{
+  "personal": {
+    "name": "Aryan Ganju",
+    "email": "aryanganju01@gmail.com",
+    "phone": "+65 8940 9011",
+    "location": "Singapore",
+    "linkedin": "linkedin.com/in/aryan-ganju",
+    "github": "github.com/AryanG01",
+    "website": "aryanganju.vercel.app"
+  },
+  "summary": "Computer Science undergraduate at National University of Singapore specializing in Artificial Intelligence and Database Systems. Delivered production NLP pipelines and scalable backend services in commodity trading and product environments. Targeting backend or machine learning engineering roles focused on distributed systems, data platforms, and AI-assisted automation.",
+  "work_experience": [
+    {
+      "role": "Software Engineering Intern",
+      "company": "Mercuria Asia Resources Pte Ltd",
+      "location": "Singapore",
+      "start_date": "2025-05",
+      "end_date": "2025-10",
+      "is_current": false,
+      "bullets": [
+        {
+          "id": "merc-001",
+          "text": "Engineered an AI / NLP trade validation pipeline reconciling unstructured trade inputs with structured datasets, achieving 97% accuracy and cutting manual workload by 80% across Middle Office workflows.",
+          "skills": ["Python", "NLP", "FastAPI", "Machine Learning"],
+          "domain": "finance",
+          "action_verb": "Engineered",
+          "has_metric": true,
+          "impact_score": 0.92,
+          "callback_count": 0,
+          "application_count": 0
+        },
+        {
+          "id": "merc-002",
+          "text": "Shipped solution as a FastAPI microservice with asynchronous batch processing, cutting validation turnaround time by 70% within enterprise trading infrastructure.",
+          "skills": ["FastAPI", "Python", "async", "microservices"],
+          "domain": "finance",
+          "action_verb": "Shipped",
+          "has_metric": true,
+          "impact_score": 0.88,
+          "callback_count": 0,
+          "application_count": 0
+        },
+        {
+          "id": "merc-003",
+          "text": "Designed a semantic clause library using normalization and Retrieval-Augmented Generation (RAG) validation, lowering recurring mismatches by 35% while strengthening contract consistency across commodity trades.",
+          "skills": ["RAG", "NLP", "Python", "LLM"],
+          "domain": "finance",
+          "action_verb": "Designed",
+          "has_metric": true,
+          "impact_score": 0.85,
+          "callback_count": 0,
+          "application_count": 0
+        },
+        {
+          "id": "merc-004",
+          "text": "Developed internal ETL pipelines transforming raw fixed-income and derivative trade data into structured analyst-ready datasets, decreasing interpretation errors by 40% and accelerating reconciliation workflows.",
+          "skills": ["ETL", "Python", "SQL", "data engineering"],
+          "domain": "finance",
+          "action_verb": "Developed",
+          "has_metric": true,
+          "impact_score": 0.82,
+          "callback_count": 0,
+          "application_count": 0
+        }
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "TVS Digital Pte Ltd",
+      "location": "Singapore",
+      "start_date": "2024-06",
+      "end_date": "2024-12",
+      "is_current": false,
+      "bullets": [
+        {
+          "id": "tvs-001",
+          "text": "Implemented automated QA data generation pipelines using Python and MySQL and introduced test-driven development with 300+ unit tests, raising coverage to 95%.",
+          "skills": ["Python", "MySQL", "TDD", "pytest"],
+          "domain": "engineering",
+          "action_verb": "Implemented",
+          "has_metric": true,
+          "impact_score": 0.78,
+          "callback_count": 0,
+          "application_count": 0
+        },
+        {
+          "id": "tvs-002",
+          "text": "Led end-to-end Viber API integration across seven international partners, enabling reliable production messaging at scale through structured testing and edge-case validation.",
+          "skills": ["API integration", "Python", "testing"],
+          "domain": "engineering",
+          "action_verb": "Led",
+          "has_metric": true,
+          "impact_score": 0.75,
+          "callback_count": 0,
+          "application_count": 0
+        },
+        {
+          "id": "tvs-003",
+          "text": "Optimized AWS deployment workflows through monitoring and automation scripts, cutting deployment time by 20% and lowering compute costs by 15%.",
+          "skills": ["AWS", "DevOps", "Python", "automation"],
+          "domain": "ops",
+          "action_verb": "Optimized",
+          "has_metric": true,
+          "impact_score": 0.72,
+          "callback_count": 0,
+          "application_count": 0
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computing",
+      "field": "Computer Science",
+      "institution": "National University of Singapore",
+      "location": "Singapore",
+      "start_date": "2022-08",
+      "end_date": "2026-05",
+      "gpa": null,
+      "honors": "Specializations: Artificial Intelligence, Database Systems",
+      "relevant_coursework": [
+        "Distributed Systems",
+        "Machine Learning",
+        "Database Systems",
+        "Computer Vision",
+        "Algorithms & Data Structures"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "Java", "TypeScript", "JavaScript", "C", "SQL"],
+    "frameworks": ["FastAPI", "Node.js", "Spring Boot", "SQLAlchemy", "React"],
+    "tools": ["Docker", "Git", "AWS", "Redis", "Kafka", "Vercel", "Playwright"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
+    "domains": ["NLP", "Machine Learning", "RAG", "Computer Vision", "ETL", "Distributed Systems"],
+    "other": ["REST APIs", "Microservices", "TDD", "PyTorch", "WebSockets"]
+  },
+  "projects": [
+    {
+      "name": "GUI Murphy",
+      "description": "AI-driven GUI testing assistant detecting subtle UI regressions (color drift, icon changes, layout inconsistencies) often missed by rule-based automation tools.",
+      "tech_stack": ["Python", "FastAPI", "YOLO", "CLIP", "GPT-4", "WebSockets"],
+      "bullets": [
+        {
+          "id": "gui-001",
+          "text": "Developed an AI-driven GUI testing assistant detecting subtle UI regressions (color drift, icon changes, layout inconsistencies) often missed by rule-based automation tools.",
+          "skills": ["Python", "Computer Vision", "AI"],
+          "domain": "engineering",
+          "action_verb": "Developed",
+          "has_metric": false,
+          "impact_score": 0.80,
+          "callback_count": 0,
+          "application_count": 0
+        },
+        {
+          "id": "gui-002",
+          "text": "Architected a multimodal computer-vision reasoning pipeline combining YOLO, CLIP, and GPT-4 with FastAPI and WebSockets for real-time visual comparison and developer feedback.",
+          "skills": ["YOLO", "CLIP", "GPT-4", "FastAPI", "WebSockets", "multimodal"],
+          "domain": "engineering",
+          "action_verb": "Architected",
+          "has_metric": false,
+          "impact_score": 0.85,
+          "callback_count": 0,
+          "application_count": 0
+        },
+        {
+          "id": "gui-003",
+          "text": "Ranked Top 12 of 200+ teams at TikTok TechJam 2025.",
+          "skills": [],
+          "domain": "other",
+          "action_verb": "Ranked",
+          "has_metric": true,
+          "impact_score": 0.70,
+          "callback_count": 0,
+          "application_count": 0
+        }
+      ],
+      "url": "https://github.com/AryanG01/techjam-2025-final"
+    }
+  ],
+  "certifications": []
+}
